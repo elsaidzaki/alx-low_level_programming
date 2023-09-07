@@ -1,8 +1,8 @@
-#include <stdio.h> 
+#include<stdio.h>
 /**
- * main - entry point 
- * a progarm the prints a line 
- * return:0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
