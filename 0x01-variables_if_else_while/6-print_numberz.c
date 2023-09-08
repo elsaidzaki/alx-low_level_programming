@@ -1,18 +1,19 @@
 #include <stdio.h>
+
 /**
- * main - print single digit number
+ * main - Prints numbers from 0 to 9.
  *
- * Return: always 0 (success0)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i;
+	int i;
 
-while (i <= 90)
-{
-putchar("%d", i);
-i++;
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }
-putchar("\n");
-return (0);
-}
+
