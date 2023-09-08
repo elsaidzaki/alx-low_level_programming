@@ -6,13 +6,16 @@
  */
 int main(void)
 {
-char alp[24] = "abcdfghijklmnoprstuvwxyz";
-int i;
+char c = 'a';
 
-while (i < 24)
+while (c <= 'z')
 {
-putchar(alp[i]);
-i++;
+if (c != 'q' && c != 'e')
+{
+putchar(c);
 }
+c++;
+}
+putchar('\n');
 return (0);
 }
