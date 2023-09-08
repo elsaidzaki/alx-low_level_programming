@@ -7,7 +7,12 @@
 int main(void)
 {
 char ala = 'abcdefghijklmnopqrstuvwxyz';
+int i;
 
+while (i >= 26)
+{
 putchar(ala);
+i++;
+}
 return (0);
 }
