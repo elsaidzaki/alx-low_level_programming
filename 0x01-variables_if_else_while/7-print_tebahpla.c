@@ -9,10 +9,10 @@ int main(void)
 char cv[26] = "zyxwvutsrqponmlkjihgfedcba";
 int i;
 
-for (i = 1; i <= 24; i++)
+for (i = 0; i < 24; i++)
 {
 putchar(cv[i]);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
