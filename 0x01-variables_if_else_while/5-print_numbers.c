@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <sstdlib.h>
+#include <stdlib.h>
 /**
  * main - print single digit
  *
