@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char ala = 'abcdefghijklmnopqrstuvwxyz';
+long char ala = 'abcdefghijklmnopqrstuvwxyz';
 int i;
 
 while (i >= 26)
