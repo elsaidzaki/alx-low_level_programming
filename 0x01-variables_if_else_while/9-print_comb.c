@@ -7,11 +7,10 @@
 int main(void)
 {
 int i;
-char cv[10] = "0123456789";
 
 for (i = 0; i <= 9; i++)
 {
-putchar(cv[i]);
+putchar(i);
 putchar(',');
 putchar(' ');
 }
